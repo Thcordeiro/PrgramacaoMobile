@@ -6,6 +6,7 @@ import Membro from "./components/Membro";
 import FamiliaJson from "./components/FamiliaJson";
 import UsusarioLogado from "./components/UsusarioLogado";
 import Botao from "./components/Botao";
+import Contador from "./components/Contador";
 
 
 const membrosFamilia1 = [
@@ -34,7 +35,10 @@ export default class App extends Component {
 
   {/*<UsusarioLogado usuario={ {"nome":"teste" , email:"teste@teste.com"} }/>*/}
 
-  <Botao />
+ {/* <Botao />*/}
+
+ <Contador/>
+
  
 
     
